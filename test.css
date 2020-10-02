@@ -20,13 +20,14 @@ body{
     font-size:23px ;
 }
 .image{
-    display: block;
+    object-fit: cover;
+    width: 320px;
+    height: 180px;
     margin-left:auto;
     margin-right:auto;
     overflow: hidden;
     padding:40px 120px 40px 120px;
     background-color: white;
-    overflow: hidden;
 }
 ul{
     max-width: 550px;
