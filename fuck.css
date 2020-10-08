@@ -1,0 +1,113 @@
+body{
+    background-color:black /*#555555*/;
+}
+#main{
+    background-color:black ;
+    color:white;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    width:100%;
+    margin:auto;
+    border-radius: 10px;
+    position: relative;
+    /*top: 25px;*/
+}
+#title { 
+    text-align:center;
+    font-weight: lighter;
+    margin: auto;
+    padding: 7px;
+    font-size: 80px;
+}
+@media (max-width:460px)
+{
+    #title { 
+        text-align:center;
+        font-weight: lighter;
+        margin: auto;
+        padding: 7px;
+        font-size: 60px;
+    }   
+}
+.pa{
+    text-align: center;
+    font-size: 20px;
+    /*border: 1px solid white; */
+    padding: 2px;
+    position: relative;
+    top: -40px;
+}
+#image{
+    width:100%;
+    position: relative;
+    top:-49px;
+}
+#image-caption{
+  text-align: center;
+  font-size: 29px;
+  position: relative;
+  top: -62px;
+}
+@media(max-width:460px)
+{
+    #image-caption{
+        text-align: center;
+        font-size: 25px;
+        position: relative;
+        top: -62px;
+      }
+}
+#list{
+    text-align: left;
+    font-size: 1.6rem;
+    position: relative;
+    width: 50%;
+    height: 110%;
+    margin: auto;
+    top: -79px;
+    line-height: 1.5;
+}
+@media (max-width: 460px)
+{
+    #list{
+    text-align: left;
+    font-size: 1rem;
+    position: relative;
+    width: 80%;
+    height: 110%;
+    margin: auto;
+    top: -79px;
+    line-height: 1.5;
+}
+}
+#tribute-info{
+    position: relative;
+    top: -60px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 50px;
+}
+@media(max-width:460px)
+{
+    #tribute-info{
+        position: relative;
+        top: -75px;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 50px;
+    }
+}
+.link{
+    text-align: center;
+    font-size: 21px;
+    position: relative;
+    top: -18px;
+}
+@media(max-width:460px){
+    .link{
+        text-align: center;
+        font-size: 21px;
+        position: relative;
+        top: -258px;
+    }
+    
+}
