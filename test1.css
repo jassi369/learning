@@ -1,0 +1,72 @@
+*{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#title{
+    font-size: 8vw;
+    width: 100%;
+    height: auto;
+}
+section{
+    display: flex;
+    border: 1px solid white;
+}
+@media(max-width:1000px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+#img-div{
+    border:1px solid white;
+    width: 55%;
+    height:auto;
+}
+@media(max-width:1000px)
+{
+    #img-div{
+        border:1px solid white;
+        width: 100%;
+        height: auto;
+    }
+}
+#img-caption{
+    text-align: center;
+    font-size: 3vw;
+}/*
+@media(max-width:1000px){
+#img-caption{
+    text-align:center;
+    width:100%;
+    height: auto;
+}
+}*/
+#tribute-info{ 
+    flex:1 200px;
+}
+h1{
+    text-align: center;
+    font-size: 5vw;
+    font-weight: lighter;
+}
+/*
+@media(max-width:1000px){
+h1{
+    width:100%;
+    height:auto;
+}
+}*/
+#list{
+    text-align: left;
+    font-size: 3vw;
+}
+#image{
+    width: 100%;
+    height: auto;
+}
+#link{
+    text-align: center;
+    font-size:3vw;
+}
+#tribute-link{
+    text-decoration: none;
+}
