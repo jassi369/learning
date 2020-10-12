@@ -2,12 +2,20 @@
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 #title{
-    font-size: 8vw;
+    font-size: 45px;
     width: 100%;
     height: auto;
+    margin:0px;
+}
+@media(max-width:1000px){
+    #title{
+        font-size:8vw;
+    }
 }
 section{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     border: 1px solid white;
 }
 @media(max-width:1000px){
@@ -31,32 +39,34 @@ section{
 }
 #img-caption{
     text-align: center;
-    font-size: 3vw;
-}/*
+    font-size: 25px;
+}
 @media(max-width:1000px){
 #img-caption{
     text-align:center;
     width:100%;
+    font-size:3vw;
     height: auto;
 }
-}*/
+}
 #tribute-info{ 
     flex:1 200px;
 }
 h1{
     text-align: center;
-    font-size: 5vw;
+    font-size: 30px;
+    font-weight: lighter;
 }
-/*
 @media(max-width:1000px){
 h1{
+    font-size:5vw;
     width:100%;
     height:auto;
 }
-}*/
+}
 #list{
     text-align: left;
-    font-size: 3vw;
+    font-size: 20px;
 }
 #image{
     width: 100%;
@@ -64,7 +74,13 @@ h1{
 }
 #link{
     text-align: center;
-    font-size:3vw;
+    font-size:15px;
+}
+@media(max-width:1000px){
+    #link{
+        text-align:center;
+        font-size:3vw;
+    }
 }
 #tribute-link{
     text-decoration: none;
